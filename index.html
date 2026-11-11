@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -28,4 +27,42 @@
 
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <!-- Tampilan Iframe -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
+
+<body>
+
+    <!-- Aplikasi RELi RPD Google Apps Script -->
+    <iframe
+        src="https://script.google.com/macros/s/AKfycbxOu8d90BLVZQ8mDZhEFGRWa4sWYXADUFBXTFLb0kjHU9Yj7LTL5BDWOKoJA5MLn3Ai/exec"
+        title="RELi RPD - Monitoring Rencana Penarikan Dana"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
